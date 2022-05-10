@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, rgba(37, 88, 58, 0.733), rgba(214, 117, 117, 0.479));
+}
+
+.forminput {
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchlist {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.movies {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+    gap: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+    text-align: center;
+    border: .5rem solid rgba(92, 139, 108, 0.774);
+    display: grid;
+    gap: .5rem;
+    padding: .5rem;
+}
+
+.removebutton {
+    width: 50%;
+    justify-self: center;
+    grid-row: 4/5;
+}
+
+.seenbutton {
+    width: 50%;
+    justify-self: center;
+    grid-row: 5/6;
+}
+
+button {
+    border: 3px solid bisque;
+    cursor: pointer;
+    background-color: rgba(197, 19, 28, 0);
+}

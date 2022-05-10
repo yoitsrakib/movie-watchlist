@@ -9,6 +9,33 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
+    <div class="top">
+        <h1>My movie watchlists</h1>
+        <h4>Add movies to watchlist</h4>
+        <form action="" class="forminput">
+            <label for="Name">Movie Name</label>
+            <input type="text" id="Name">
+            <label for="Year">Movie Year</label>
+            <input type="text" id="Year">
+            <label for="Seen">Have you seen the movie?</label>
+            <select name="seen" id="Seen">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <br>
+            <button type="reset">Reset</button>
+         </form>
+         <br>
+         <button type="submit" class="submitbutton">Submit</button>
+    </div>
+
+
+    <div class="watchlist">
+        <div class="movies">
+        </div>
+    </div>
+
     
 </body>
 </html>
