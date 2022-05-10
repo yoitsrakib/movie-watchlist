@@ -54,12 +54,13 @@ function display() {
 
 
         Movies.prototype = Object.create(Movies.prototype);
-        const toggleColor = new Movies();
  if ((movieWatchlist[parseInt(index)].Seen) == "Yes")   {
             card.style.backgroundColor='rgba(87, 255, 185, 0.788)';
+            card.style.boxShadow='5px 5px #1d380e'
                
             } else if ((movieWatchlist[parseInt(index)].Seen) == "No")  {
                 card.style.backgroundColor='rgba(197, 19, 28, 0.788)';
+                card.style.boxShadow='5px 5px #aa381e'
                 card.style.border='.5rem solid red';
         }
 
@@ -116,19 +117,3 @@ submitBtn.addEventListener('click', ()=> {
 
 
 
-// display();
-
-// pushToWatchlist('Titanic', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('sdd', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('sdd', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('sdd', '1997', 'No');
-// pushToWatchlist('Avatar', '1997', 'No');
-// pushToWatchlist('sdd', '1997', 'No');
-// // console.log(movieWatchlist);
-
-// // console.log(movieWatchlist[0]['Name']);

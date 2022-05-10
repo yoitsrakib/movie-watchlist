@@ -19,7 +19,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+  
 }
 
 .movies {
@@ -31,11 +31,13 @@ body {
 }
 
 .card {
+ 
     text-align: center;
     border: .5rem solid rgba(92, 139, 108, 0.774);
     display: grid;
     gap: .5rem;
     padding: .5rem;
+    border-radius: 10px;
 }
 
 .removebutton {
@@ -51,7 +53,13 @@ body {
 }
 
 button {
-    border: 3px solid bisque;
+    border: 3px solid #1d380e;
     cursor: pointer;
+    border-radius: 10px 100px / 120px;
     background-color: rgba(197, 19, 28, 0);
+}
+
+.forminput > input {
+    border: 3px solid #1d380e;
+    border-radius: 20px 100px / 120px;
 }
